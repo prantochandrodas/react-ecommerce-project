@@ -5,6 +5,7 @@ import remove_icon from '../Assets/cart_cross_icon.png'
 const CartItem = () => {
 
     const { all_product,getTotalCartAmount, cartItems, removeFromCart } = useContext(ShopContext)
+    const id = localStorage.getItem('loginId')
     return (
         <div className='cartitems'>
             <div className="cartitems-format-main">

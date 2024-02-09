@@ -13,6 +13,7 @@ import Footer from './Components/Footer/Footer'
 import men_banner from './Components/Assets/banner_mens.png'
 import women_banner from './Components/Assets/banner_women.png'
 import kid_banner from './Components/Assets/banner_kids.png'
+import Login from './Pages/Login'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -29,7 +30,8 @@ function App() {
               <Route path=':productId' element={<Product/>}></Route>
           </Route>
           <Route path='/cart' element={<Cart/>}/>
-          <Route path='/login' element={<LoginSignup/>}/>
+          <Route path='/signup' element={<LoginSignup/>}/>
+          <Route path='/login' element={<Login/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>
