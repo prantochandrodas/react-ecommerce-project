@@ -1,3 +1,6 @@
+# live link
+https://65c64191879b1f07f0eba6a0--nimble-pithivier-92fafc.netlify.app/
+
 # Description of Lets-shop
 Title: React E-commerce App - Lets-shop
 
